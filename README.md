@@ -16,23 +16,19 @@ The following are the files and their descriptions that were used in this assign
 
 The following files are available for the train and test data. Their descriptions are equivalent. 
 
-'train/subject_train.txt':
-
+'train/subject_train.txt':  
 Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-'train/X_train.txt and test/X_test.txt':
-
+'train/X_train.txt and test/X_test.txt':  
 The training and testing data sets measured acceleration, movements in the x, y and z axes.  Each measurement was conducted over a specific period of time, with one time-period being 2.56 seconds.  128 readings were taken within each 2.56 second interval, and though the number of repetitions on these measuremments were about 54, the actual number of reps did vary slightly from subject-to-subject.
 
-'activity_labels.txt':
-
+'activity_labels.txt':  
 The protocol of activities recorded in the training and testing data sets composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities (walking, walking downstairs and walking upstairs).
 
-'features_info.txt':
-
-The measurements provided by the smartphone including the following types of data:
-    1.   tri-axial acceleration (x, y and z directions) which is a rate determination of how fast a person increased or decreased speed in each of the spatial coordinates.
-    2.  tri-axial angular velocity - basically how fast the body is changing position, say, turning left and up, or moving down and right
+'features_info.txt':  
+The measurements provided by the smartphone including the following types of data:  
+    1.  tri-axial acceleration (x, y and z directions) which is a rate determination of how fast a person increased or decreased speed in each of the spatial coordinates.  
+    2.  tri-axial angular velocity - basically how fast the body is changing position, say, turning left and up, or moving down and right.  
 
 The authors determined means of these multiple different measurements, as well as standard deviations, 
 and it was these that were used for the Getting and Cleaning Data exercise
