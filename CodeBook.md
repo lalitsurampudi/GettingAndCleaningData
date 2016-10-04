@@ -75,8 +75,8 @@ Number of activity types = 6
 Number of participants = 30
 Number of records recorded including training and test = 180
 Number of variables measured in each repetition (kept) = 86, not including test subject # or Activity Label
-# of reps included for each activity type and participant = 1
-# of files used to create data set = 1, which is the first dataset
+Number of reps included for each activity type and participant = 1
+Number of files used to create data set = 1, which is the first dataset
 
 Columns represent the same as in DataSet1, except that each value under a column represents an average value
 of that measurement for that activity and that client
