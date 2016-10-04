@@ -113,10 +113,10 @@ colnames(meanResults)[2]<-"Test_Subject_Number"
 
 ## Save the files in csv format
 ## Save the first, non-aggregated file
-write.csv(dataSubsetWithActivity_SubjectNumber, file = "DataSet1.csv"
+write.table(dataSubsetWithActivity_SubjectNumber, file = "DataSet1.txt"
             , row.names = FALSE)
 
 ## Save the data set with the aggregated means and standard deviations w.r.t
 ## Activity and Groups
-write.csv(meanResults, file = "MeanResults.csv", row.names = FALSE)
+write.table(meanResults, file = "MeanResults.txt", row.names = FALSE)
 ##### ==========================    END OF LINES    ============================
