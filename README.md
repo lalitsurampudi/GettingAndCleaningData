@@ -1,6 +1,6 @@
-##  Getting and Cleaning Data Course Project
+#$  Getting and Cleaning Data Course Project
 
-## Data Collection:
+### Data Collection:
 
 The data files were downloaded as a zip folder from the link:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -40,12 +40,12 @@ and it was these that were used for the Getting and Cleaning Data exercise
 'run_analysis.R':
 The R script contains the commands which on serial execution load the libraries, source data sets, tidy data, merge, transform and aggregate the data in to a complete final data frame ready to perform analysis.
 
-## Source:
+### Source:
 
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab - Non-Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
+DITEN - UniversitÃ  degli Studi di Genova, Genoa (I-16145), Italy. 
 
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
-Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
+Universitat PolitÃ¨cnica de Catalunya (BarcelonaTech). Vilanova i la GeltrÃº (08800), Spain
 activityrecognition '@' smartlab.ws
